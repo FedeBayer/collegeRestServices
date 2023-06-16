@@ -5,8 +5,13 @@ Bayerque Federico
 Caroseli Nahuel
 Manuel Hollman
 
-## Informe integrador 4
-https://docs.google.com/document/d/1eivRKeyYv01OACxFpJ9iABPC9EVa3pbHa9YIzi_vjgk/edit#
+## Swagger Link
+- http://localhost:8080/swagger-ui/#/
 
-## Repositorio del deploy a Heroku
-https://github.com/asenciomatias1/arquitecturasWeb
+## Utilizacion Local
+- Abrir XAMPP, crear db "integrador5", ejecutar projecto 
+
+## Utilizacion con Heroku
+- Usar `https://arquiapp.herokuapp.com` con los endpoints.
+- Ejemplo: `https://arquiapp.herokuapp.com/estudiantes`
+- Para lo que no sea GET usar Postman

@@ -1,0 +1,422 @@
+{
+	"info": {
+		"_postman_id": "19317cbe-76a8-451f-8fef-83c53e1be35c",
+		"name": "TPE",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "16208542"
+	},
+	"item": [
+		{
+			"name": "/estudiantes",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\t    \"libreta_universitaria\":\"260851\",\r\n\t    \"nombre\":\"Roberto\",\r\n\t    \"apellido\":\"Zansa\",\r\n\t    \"edad\":\"20\",\r\n\t    \"genero\":\"Masculino\",\r\n\t    \"documento\":\"24800200\",\r\n\t    \"ciudad\":\"Tandil\"\r\n\t}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/estudiantes",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"estudiantes"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Default",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "{{url}}/https://60c28f19917002001739d2ee.mockapi.io/tabla/Sugerencias/",
+							"protocol": "{{url}}/https",
+							"host": [
+								"60c28f19917002001739d2ee",
+								"mockapi",
+								"io"
+							],
+							"path": [
+								"tabla",
+								"Sugerencias",
+								""
+							]
+						}
+					},
+					"code": 200,
+					"_postman_previewlanguage": null,
+					"header": null,
+					"cookie": [],
+					"body": ""
+				}
+			]
+		},
+		{
+			"name": "/estudiantes Copy",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\t    \"libreta_universitaria\":\"560855\",\r\n\t    \"nombre\":\"Anna\",\r\n\t    \"apellido\":\"Robles\",\r\n\t    \"edad\":\"22\",\r\n\t    \"genero\":\"Femenino\",\r\n\t    \"documento\":\"28220274\",\r\n\t    \"ciudad\":\"Azul\"\r\n\t}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/estudiantes",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"estudiantes"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Default",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "{{url}}/https://60c28f19917002001739d2ee.mockapi.io/tabla/Sugerencias/",
+							"protocol": "{{url}}/https",
+							"host": [
+								"60c28f19917002001739d2ee",
+								"mockapi",
+								"io"
+							],
+							"path": [
+								"tabla",
+								"Sugerencias",
+								""
+							]
+						}
+					},
+					"code": 200,
+					"_postman_previewlanguage": null,
+					"header": null,
+					"cookie": [],
+					"body": ""
+				}
+			]
+		},
+		{
+			"name": "/carrera",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\t    \"nombre\":\"TUDAI\",\r\n\t    \"duracion\":\"2\"\r\n\t}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/carreras",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"carreras"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Default",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "{{url}}/https://60c28f19917002001739d2ee.mockapi.io/tabla/Sugerencias/",
+							"protocol": "{{url}}/https",
+							"host": [
+								"60c28f19917002001739d2ee",
+								"mockapi",
+								"io"
+							],
+							"path": [
+								"tabla",
+								"Sugerencias",
+								""
+							]
+						}
+					},
+					"code": 200,
+					"_postman_previewlanguage": null,
+					"header": null,
+					"cookie": [],
+					"body": ""
+				}
+			]
+		},
+		{
+			"name": "/carrera Copy",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\t    \"nombre\":\"Licenciatura\",\r\n\t    \"duracion\":\"3\"\r\n\t}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/carreras",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"carreras"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Default",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "{{url}}/https://60c28f19917002001739d2ee.mockapi.io/tabla/Sugerencias/",
+							"protocol": "{{url}}/https",
+							"host": [
+								"60c28f19917002001739d2ee",
+								"mockapi",
+								"io"
+							],
+							"path": [
+								"tabla",
+								"Sugerencias",
+								""
+							]
+						}
+					},
+					"code": 200,
+					"_postman_previewlanguage": null,
+					"header": null,
+					"cookie": [],
+					"body": ""
+				}
+			]
+		},
+		{
+			"name": "/matricula",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"libreta_uni_estudiante\":{\r\n        \"libreta_universitaria\":\"260851\",\r\n\t    \"nombre\":\"Roberto\",\r\n\t    \"apellido\":\"Zansa\",\r\n\t    \"edad\":\"20\",\r\n\t    \"genero\":\"Masculino\",\r\n\t    \"documento\":\"24800200\",\r\n\t    \"ciudad\":\"Tandil\"\r\n    },\r\n    \"id_carrera\":{\r\n        \"id\": \"1\",\r\n        \"nombre\":\"TUDAI\",\r\n\t    \"duracion\":\"2\",\r\n        \"cant_estudiantes\": \"0\"\r\n    },\r\n    \"antiguedad\": \"1\",\r\n    \"graduado\": \"false\",\r\n    \"anio_cursada\": \"2022\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/matriculas",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"matriculas"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Default",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "{{url}}/https://60c28f19917002001739d2ee.mockapi.io/tabla/Sugerencias/",
+							"protocol": "{{url}}/https",
+							"host": [
+								"60c28f19917002001739d2ee",
+								"mockapi",
+								"io"
+							],
+							"path": [
+								"tabla",
+								"Sugerencias",
+								""
+							]
+						}
+					},
+					"code": 200,
+					"_postman_previewlanguage": null,
+					"header": null,
+					"cookie": [],
+					"body": ""
+				}
+			]
+		},
+		{
+			"name": "/reporte",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "/carreras",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/carreras",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"carreras"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "/carreras/conInscriptos",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/carreras",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"carreras"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "/estudiantes",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/estudiantes",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"estudiantes"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "/matriculas",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "/estudiantes/OrderByApellido",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/estudiantes/OrderByApellido",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"estudiantes",
+						"OrderByApellido"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "/estudiantes/id",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "/estudiantes/genero/Masculino",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "/carrera/{idCarrera}/ciudad/{ciudad}",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		}
+	]
+}
